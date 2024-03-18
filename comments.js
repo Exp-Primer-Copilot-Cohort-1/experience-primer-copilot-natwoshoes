@@ -1,0 +1,11 @@
+// Create web server
+
+// Import the express module
+const express = require('express');
+const app = express();
+const bodyParser = require('body-parser');
+const fs = require('fs');
+const path = require('path');
+const commentsPath = path.join(__dirname, 'comments.json');
+
+
